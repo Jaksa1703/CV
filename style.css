@@ -1,0 +1,115 @@
+ody{
+    font-family:Arial, sans-serif;
+    background-color: aliceblue;
+    padding: 40px 114px;
+}
+
+h1{
+    font-size: 36px;
+}
+
+h2{
+    font-size: 28px;
+}
+
+span{
+    color: grey;
+}
+
+main{
+    background-color:white;
+}
+
+.container{
+    box-shadow: 0 0 20px grey;
+    background-color: white;
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+
+header,section{
+    padding: 10px 60px 20px;
+}
+
+header{
+    box-shadow: #0000002b;
+    display: flex;
+    flex-wrap:wrap;
+    align-items: center; 
+    justify-content: space-between;
+    padding-top:60px;
+    background-color: white;
+    
+}
+
+
+header ul{
+    list-style: none;
+}
+
+header li{
+    margin-bottom: 15px;
+}
+
+.address-icon{
+    width:16px;
+    height: 16px;
+    background-color: cornflowerblue;
+    margin-right: 10px;
+    padding: 8px;
+}
+
+.hobby-icon{
+    width:16px;
+    height: 16px;
+    margin-right: 10px;
+    padding: 8px;
+}
+
+.circle{
+     border-radius: 50%;
+}
+
+.profile-picture{
+    width: 180px;
+    height: 180px;
+}
+
+.hobbies{
+    list-style:none;
+    padding: 0;
+    display: flex;
+}
+
+.hobbies li{
+    width:25%;
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.cv-dwonload-link{
+    border: 2px solid cornflowerblue;
+    color:black;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 20px;
+    border-radius: 26px;
+    transition: background-color 0.5s; 
+}
+
+.cv-dwonload-link:hover{
+    color:white;
+    background-color: cornflowerblue;
+}
+
+.cv-dwonload-link:focus{
+    outline:none;
+    color:white;
+    background-color: cornflowerblue;
+}
+
+.cv-dwonload-link:active{
+    text-decoration: underline;
+}
